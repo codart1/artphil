@@ -24,5 +24,6 @@
 $context = Timber::get_context();
 $post = new TimberPost();
 $context['text_domain'] = "artphil";
+$context['home_url'] = home_url();
 $context['post'] = $post;
 Timber::render( array( 'page-' . $post->post_name . '.twig', 'page.twig' ), $context );
