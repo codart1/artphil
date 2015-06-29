@@ -1,0 +1,9 @@
+[29-Jun-2015 04:21:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'theme_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/plugin.php on line 496
+[29-Jun-2015 04:21:50 UTC] PHP Stack trace:
+[29-Jun-2015 04:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[29-Jun-2015 04:21:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[29-Jun-2015 04:21:50 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[29-Jun-2015 04:21:50 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[29-Jun-2015 04:21:50 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[29-Jun-2015 04:21:50 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:337
+[29-Jun-2015 04:21:50 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
