@@ -1,9 +1,14 @@
 {% extends "layouts/master.twig" %}
 
-
 {% block content %}
-    {% include 'includes/nav-tranlucent.twig' %}
+    {% include 'includes/header-tranlucent.twig' %}
     {% include 'includes/slider-main.twig' %}
-	{% include 'includes/footer-main.twig' %}
-	
+	{% include 'includes/footer-tranlucent.twig' %}
+{% endblock %}
+
+{% block end_of_body %}
+    <script type="text/javascript" src="{{site.theme.link}}/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="{{site.theme.link}}/assets/js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="{{site.theme.link}}/assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="{{site.theme.link}}/assets/js/main.js"></script>
 {% endblock %}
